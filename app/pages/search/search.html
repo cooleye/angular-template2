@@ -1,0 +1,42 @@
+<style>
+
+header{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  line-height: 50px;
+}
+header .search-left{
+  flex: 1;
+  text-align: center;
+}
+header .search-mid{
+  flex: 5;
+  text-align: center;
+}
+.search-mid input{
+  width: 95%;
+  height: 35px;
+}
+header .search-right{
+  flex: 1;
+  text-align: center;
+}
+.search-page{
+  width: 100%;
+  height: 100%;
+  background: #ace;
+}
+
+</style>
+<div class="search-page">
+  <header>
+    <div class="search-left"><a ui-sref="index.home">back</a></div>
+    <div class="search-mid"><input/></div>
+    <div class="search-right">搜索</div>
+  </header>
+  <div>
+      search content
+  </div>
+</div>

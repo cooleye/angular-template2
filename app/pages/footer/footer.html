@@ -1,0 +1,31 @@
+<style>
+.index-page{
+  width: 100%;
+  height: 100%;
+  background: #eea;
+  margin-top: -21px;
+}
+footer{
+  width: 100%;
+  height:50px;
+  position: fixed;
+  bottom:0;
+  z-index: 999;
+}
+
+</style>
+<div class="index-page">
+  <footer>
+
+    <ul>
+        <li><a ui-sref="index.home" ui-sref-active="active">home</a></li>
+        <li><a ui-sref="index.list" ui-sref-active="active">list</a></li>
+        <li><a ui-sref="index.cart" ui-sref-active="active">cart</a></li>
+        <li><a ui-sref="index.mine" ui-sref-active="active">mine</a></li>
+        <li><a ui-sref="search" ui-sref-active="active">search</a></li>
+    </ul>
+
+  </footer>
+
+  <div class="content animated slideInRight"  ui-view>
+</div>
